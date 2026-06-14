@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>支援 / Support — Glimmy</title>
+  <style>
+    body { font-family: -apple-system, 'PingFang TC', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 1em; line-height: 1.75; max-width: 720px; margin: 0 auto; color: #2C2A26; }
+    .lang-switch { position: sticky; top: 0; background: #fff; padding: 10px 0; margin-bottom: 8px; border-bottom: 1px solid #eee; }
+    .lang-switch button { font: inherit; padding: 6px 16px; margin-right: 8px; border: 1px solid #B98426; background: #fff; color: #B98426; border-radius: 999px; cursor: pointer; }
+    .lang-switch button.active { background: #B98426; color: #fff; }
+    strong { display: block; margin-top: 1.4em; color: #2C2A26; }
+    .contact { background: #FBF7EF; border: 1px solid #EBDDC2; border-radius: 12px; padding: 14px 18px; margin: 1em 0; }
+    .contact strong { margin-top: 0; }
+    ul { padding-left: 1.2em; }
+    a { color: #B98426; }
+    hr { margin: 2em 0 1em; border: none; border-top: 1px solid #eee; }
+    [hidden] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="lang-switch">
+    <button id="btn-zh" class="active" onclick="setLang('zh')">中文</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ===================== 中文 ===================== -->
+  <div id="zh" class="lang">
+    <h2>Glimmy 支援</h2>
+    <div class="contact">
+      <strong>聯絡我們</strong>
+      <p>有任何問題、回報或帳號需求,請來信 <a href="mailto:glimmyusercontact@gmail.com">glimmyusercontact@gmail.com</a>,我們會盡快回覆。</p>
+    </div>
+
+    <strong>什麼是 Glimmy?</strong>
+    <p>Glimmy 讓你把「照片 + 便利貼」留在真實世界的地點。只有實際走到附近的人,才能解鎖看見你留下的 glimmy。</p>
+
+    <strong>怎麼發一則 glimmy?</strong>
+    <p>點右下角的 ＋ → 拍一張照片 → 寫下你的便利貼、拖曳放到照片上 → 選擇可見範圍 → 貼上。它會釘在你目前所在的座標。</p>
+
+    <strong>為什麼我看不到附近的 glimmy?</strong>
+    <p>陌生人的公開 glimmy,只有在你實際走到約 120 公尺內才會出現在地圖上。請確認已允許定位權限。你自己、Glimmors(好友)與群組的 glimmy 則不限距離,隨時都看得到。</p>
+
+    <strong>怎麼加 Glimmors(好友)?</strong>
+    <p>在好友頁用對方的公開 ID(GLM-XXXXXX)送出邀請;對方接受後即成為 Glimmors,你們之間的 glimmy 互相不限距離可見。</p>
+
+    <strong>地點提醒沒有跳通知?</strong>
+    <p>背景地點提醒需要「永遠」定位權限。請到「設定 → Glimmy → 位置」改為「永遠」。提醒只在你「走進」某張 glimmy 的範圍(跨越邊界)時觸發——若你早已站在原地不會觸發,離開再回來即可。</p>
+
+    <strong>怎麼檢舉或封鎖?</strong>
+    <p>長按任一則 glimmy 或回聲即可檢舉;在使用者個人檔案的 ⋯ 選單可檢舉或封鎖該使用者。我們會在收到檢舉後 24 小時內處理。</p>
+
+    <strong>怎麼刪除帳號?</strong>
+    <p>在「設定 → 刪除帳號」,依指示輸入你的公開 ID 確認後,即可刪除你的帳號與所有相關內容。</p>
+
+    <strong>glimmy 多久會消失?</strong>
+    <p>每則 glimmy 存在 3 天(72 小時),之後會自動移入你的私人抽屜。</p>
+
+    <hr><p style="font-size:13px;color:#8B8479">English version above — tap “English”. 上方可切換英文版。</p>
+  </div>
+
+  <!-- ===================== English ===================== -->
+  <div id="en" class="lang" hidden>
+    <h2>Glimmy Support</h2>
+    <div class="contact">
+      <strong>Contact us</strong>
+      <p>For any question, report, or account request, email <a href="mailto:glimmyusercontact@gmail.com">glimmyusercontact@gmail.com</a> and we'll get back to you as soon as we can.</p>
+    </div>
+
+    <strong>What is Glimmy?</strong>
+    <p>Glimmy lets you leave a photo with a sticky note at a real-world location. Only people who physically come near it can unlock and see the glimmy you left.</p>
+
+    <strong>How do I post a glimmy?</strong>
+    <p>Tap the ＋ button → take a photo → write your sticky note and drag it onto the photo → choose who can see it → post. It's pinned to your current coordinates.</p>
+
+    <strong>Why can't I see nearby glimmies?</strong>
+    <p>A stranger's public glimmy only appears on the map once you are physically within ~120 m of it. Please make sure location access is granted. Your own glimmies, and those from your Glimmors (friends) and groups, are visible from any distance.</p>
+
+    <strong>How do I add Glimmors (friends)?</strong>
+    <p>Send an invite using the other person's public ID (GLM-XXXXXX) on the friends screen. Once they accept, you become Glimmors and each other's glimmies are visible from any distance.</p>
+
+    <strong>My location reminders aren't firing.</strong>
+    <p>Background location reminders require "Always" location access. Go to Settings → Glimmy → Location and set it to "Always". A reminder only fires when you walk into a glimmy's range (cross its boundary) — if you're already standing inside it, leave and return.</p>
+
+    <strong>How do I report or block?</strong>
+    <p>Long-press any glimmy or echo to report it; use the ⋯ menu on a user's profile to report or block them. We act on reports within 24 hours.</p>
+
+    <strong>How do I delete my account?</strong>
+    <p>Go to Settings → Delete Account and confirm by entering your public ID. This deletes your account and all associated content.</p>
+
+    <strong>How long does a glimmy last?</strong>
+    <p>Each glimmy lasts 3 days (72 hours), after which it moves to your private archive.</p>
+
+    <hr><p style="font-size:13px;color:#8B8479">中文版在上方 — 點「中文」切換。</p>
+  </div>
+
+  <script>
+    function setLang(l){
+      document.getElementById('zh').hidden = (l !== 'zh');
+      document.getElementById('en').hidden = (l !== 'en');
+      document.getElementById('btn-zh').classList.toggle('active', l === 'zh');
+      document.getElementById('btn-en').classList.toggle('active', l === 'en');
+      document.documentElement.lang = (l === 'zh') ? 'zh-Hant' : 'en';
+    }
+  </script>
+</body>
+</html>
